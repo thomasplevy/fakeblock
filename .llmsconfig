@@ -1,0 +1,13 @@
+{
+	"package_name": "Fakeblock",
+	"pot": {
+		"domain": "fakeblock",
+		"jsSince": "1.0.0",
+		"jsClassname": "FKBLK_l10n",
+		"jsFilename": "class-fkblk-l10n.php"
+	},
+	"publish": false,
+	"slush": {
+		"shortname": "FKBLK"
+	}
+}
