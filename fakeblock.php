@@ -5,8 +5,8 @@
  * @package  Fakeblock/Main
  *
  * Plugin Name: Fakeblock
- * Plugin URI: https://fakeblock.us
- * Description: With less than 10 active installs, Fakeblock is the OC WordPress community's privacy software plugin that's also anti-piracy
+ * Plugin URI: https://github.com/thomasplevy/fakeblock
+ * Description: With less than 10 active installs, Fakeblock is the OC WordPress community's privacy software plugin that's also anti-piracy.
  * Version: 1.0.0
  * Author: George Maharis
  * Author URI: https://en.wikipedia.org/wiki/George_Maharis
