@@ -2,8 +2,8 @@
 /**
  * Fakeblock Privacy
  *
- * @since    [version]
- * @version  [version]
+ * @since    1.0.0
+ * @version  1.0.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -16,8 +16,8 @@ class FKBLK_Privacy {
 	/**
 	 * Constructor.
 	 *
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    1.0.0
+	 * @version  1.0.0
 	 */
 	public function __construct() {
 
@@ -35,8 +35,8 @@ class FKBLK_Privacy {
 	/**
 	 * Add a CSS class to the body when the visitor is fakeblocked
 	 *
-	 * @since [version]
-	 * @version [version]
+	 * @since 1.0.0
+	 * @version 1.0.0
 	 *
 	 * @param array $classes CSS class list as an array.
 	 * @return array
@@ -51,8 +51,8 @@ class FKBLK_Privacy {
 	/**
 	 * Serves the visitor a block if they are fakeblocked.
 	 *
-	 * @since [version]
-	 * @version [version]
+	 * @since 1.0.0
+	 * @version 1.0.0
 	 *
 	 * @param string $template Template include path.
 	 * @return string
@@ -70,8 +70,8 @@ class FKBLK_Privacy {
 	/**
 	 * Handles unblock form submission.
 	 *
-	 * @since [version]
-	 * @version [version]
+	 * @since 1.0.0
+	 * @version 1.0.0
 	 *
 	 * @return [type]
 	 */

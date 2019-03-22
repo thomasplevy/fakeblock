@@ -2,8 +2,8 @@
 /**
  * Fakeblock Functions.
  *
- * @since    [version]
- * @version  [version]
+ * @since    1.0.0
+ * @version  1.0.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,8 +11,8 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Retrieve a Fakeblock option.
  *
- * @since [version]
- * @version [version]
+ * @since 1.0.0
+ * @version 1.0.0
  *
  * @param string $name Option name (unprefixed).
  * @param mixed  $default Default value.
@@ -25,8 +25,8 @@ function fkblk_get( $name, $default = 'no' ) {
 /**
  * Update a Fakeblock option.
  *
- * @since [version]
- * @version [version]
+ * @since 1.0.0
+ * @version 1.0.0
  *
  * @param string $name Option name (unprefixed).
  * @param mixed  $val Option value.
@@ -55,8 +55,8 @@ function fkblk_make_code( $key, $expires ) {
  *
  * A valid code exists and is not expired.
  *
- * @since [version]
- * @version [version]
+ * @since 1.0.0
+ * @version 1.0.0
  *
  * @param string $code Unblock code.
  * @return bool
@@ -80,8 +80,8 @@ function fkblk_verify_unblock( $code ) {
 /**
  * Determine if the visitor is fakeblocked.
  *
- * @since [version]
- * @version [version]
+ * @since 1.0.0
+ * @version 1.0.0
  *
  * @return bool
  */

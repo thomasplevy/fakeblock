@@ -16,38 +16,64 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: includes/admin/class-fkblk-options.php:49, includes/admin/class-fkblk-options.php:49, includes/admin/views/options.php:16
+#: includes/admin/class-fkblk-options.php:51, includes/admin/class-fkblk-options.php:51, includes/admin/views/options.php:16
 msgid "Fakeblock"
 msgstr ""
 
-#: includes/views/blocked.php:18
+#: includes/views/blocked.php:19
+msgid "Keep time at %1$d bpm for %2$d bar to access this site."
+msgid_plural "Keep time at %1$d bpm for %2$d bars to access this site."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/views/blocked.php:51
+msgid "You hit %1$s of %2$s beats."
+msgstr ""
+
+#: includes/views/blocked.php:54
 msgid "Unblock Me"
 msgstr ""
 
-#: includes/admin/views/options.php:23, includes/admin/views/options.php:27
+#: includes/admin/views/options.php:24, includes/admin/views/options.php:28
 msgid "Privacy Mode"
 msgstr ""
 
-#: includes/admin/views/options.php:31
+#: includes/admin/views/options.php:32
 msgid "Enable Privacy Mode"
 msgstr ""
 
-#: includes/admin/views/options.php:34
+#: includes/admin/views/options.php:35
 msgid "Enable the unpatented Fakeblock privacy algorithms to prevent internet attention, traffic, and other common online annoyances."
 msgstr ""
 
-#: includes/admin/views/options.php:39, includes/admin/views/options.php:43
+#: includes/admin/views/options.php:40
+msgid "Unlock BPM"
+msgstr ""
+
+#: includes/admin/views/options.php:43
+msgid "The beats per minute required to bypass a Fakeblock."
+msgstr ""
+
+#: includes/admin/views/options.php:48
+msgid "Unlock Bars"
+msgstr ""
+
+#: includes/admin/views/options.php:51
+msgid "The number of bars to be played when bypassing a Fakeblock."
+msgstr ""
+
+#: includes/admin/views/options.php:56, includes/admin/views/options.php:60
 msgid "Anti-Piracy"
 msgstr ""
 
-#: includes/admin/views/options.php:47
+#: includes/admin/views/options.php:64
 msgid "Enable Anti-Piracy Protection"
 msgstr ""
 
-#: includes/admin/views/options.php:50
+#: includes/admin/views/options.php:67
 msgid "\"Fakeblock is also anti-piracy? That's awesome!\" ~ A fake user"
 msgstr ""
 
-#: includes/admin/views/options.php:58
+#: includes/admin/views/options.php:76
 msgid "Save Changes"
 msgstr ""

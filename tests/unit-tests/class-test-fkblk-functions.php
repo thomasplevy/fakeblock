@@ -2,8 +2,8 @@
 /**
  * Test functions.
  *
- * @since    [version]
- * @version  [version]
+ * @since    1.0.0
+ * @version  1.0.0
  */
 class FKBLK_Functions extends FKBLK_Unit_Test_Case {
 

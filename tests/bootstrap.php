@@ -3,8 +3,8 @@
  * Testing Bootstrap
  *
  * @package Fakeblock/Tests
- * @since   [version]
- * @version [version]
+ * @since   1.0.0
+ * @version 1.0.0
  */
 
 require_once './vendor/lifterlms/lifterlms-tests/bootstrap.php';

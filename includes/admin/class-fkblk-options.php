@@ -2,8 +2,8 @@
 /**
  * Fakeblock options panel.
  *
- * @since    [version]
- * @version  [version]
+ * @since    1.0.0
+ * @version  1.0.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -28,8 +28,8 @@ class FKBLK_Options {
 	/**
 	 * Constructor.
 	 *
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    1.0.0
+	 * @version  1.0.0
 	 */
 	public function __construct() {
 
@@ -41,8 +41,8 @@ class FKBLK_Options {
 	/**
 	 * Register Fakeblock options panel.
 	 *
-	 * @since [version]
-	 * @version [version]
+	 * @since 1.0.0
+	 * @version 1.0.0
 	 *
 	 * @return void
 	 */
@@ -55,8 +55,8 @@ class FKBLK_Options {
 	/**
 	 * Output Fakeblock options panel HTML.
 	 *
-	 * @since [version]
-	 * @version [version]
+	 * @since 1.0.0
+	 * @version 1.0.0
 	 *
 	 * @return void
 	 */
@@ -69,8 +69,8 @@ class FKBLK_Options {
 	/**
 	 * Sanitize an option value before saving.
 	 *
-	 * @since [version]
-	 * @version [version]
+	 * @since 1.0.0
+	 * @version 1.0.0
 	 *
 	 * @param mixed  $val Unsanitized value.
 	 * @param string $type Data type.
@@ -100,8 +100,8 @@ class FKBLK_Options {
 	/**
 	 * Save options.
 	 *
-	 * @since [version]
-	 * @version [version]
+	 * @since 1.0.0
+	 * @version 1.0.0
 	 *
 	 * @return void
 	 */

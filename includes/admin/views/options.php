@@ -4,8 +4,8 @@
  *
  * @package Fakeblock/Admin/Views
  *
- * @since [version]
- * @version [version]
+ * @since 1.0.0
+ * @version 1.0.0
  */
 
 defined( 'ABSPATH' ) || exit;
