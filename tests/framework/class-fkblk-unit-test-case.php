@@ -7,4 +7,4 @@
  * @version [version]
  */
 
-class LLMS_FKBLK_Unit_Test_Case extends LLMS_Unit_Test_Case {}
+class FKBLK_Unit_Test_Case extends LLMS_Unit_Test_Case {}

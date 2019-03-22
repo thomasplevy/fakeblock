@@ -48,6 +48,15 @@ class FKBLK_Privacy {
 		return $classes;
 	}
 
+	/**
+	 * Serves the visitor a block if they are fakeblocked.
+	 *
+	 * @since [version]
+	 * @version [version]
+	 *
+	 * @param string $template Template include path.
+	 * @return string
+	 */
 	public function maybe_fakeblock( $template ) {
 
 		if ( is_fkblkd() ) {
@@ -55,8 +64,17 @@ class FKBLK_Privacy {
 		}
 
 		return $template;
+
 	}
 
+	/**
+	 * Handles unblock form submission.
+	 *
+	 * @since [version]
+	 * @version [version]
+	 *
+	 * @return [type]
+	 */
 	public function maybe_unblock() {
 
 		$nonce = filter_input( INPUT_POST, 'fkblk_nonce', FILTER_SANITIZE_STRING );
@@ -71,7 +89,13 @@ class FKBLK_Privacy {
 			return;
 		}
 
-		setcookie( 'fkblk', 'okay', time() + DAY_IN_SECONDS, '/' );
+		$hash = fkblk_set_unblock();
+		$data = fkblk_get( $hash );
+
+		setcookie( 'fkblk', $hash, $data[1], '/' );
+
+		wp_redirect( filter_input( INPUT_SERVER, 'REQUEST_URI' ) );
+		exit;
 
 	}
 

@@ -1,6 +1,9 @@
 .idea/
 .idea/*
 
+vendor/
+vendo/*
+
 node_modules/
 node_modules/*
 

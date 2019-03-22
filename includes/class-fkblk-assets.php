@@ -47,8 +47,8 @@ class FKBLK_Assets {
 		wp_style_add_data( 'fkblk', 'rtl', 'replace' );
 		wp_style_add_data( 'fkblk', 'suffix', FAKEBLOCK_ASSETS_SUFFIX );
 
-		// wp_register_script( 'fkblk', plugins_url( 'assets/js/fkblk' . $this->minify . '.js', FAKEBLOCK_PLUGIN_FILE ), array( 'jquery' ), FAKEBLOCK_VERSION, true );
-		// wp_enqueue_script( 'fkblk' );
+		wp_register_script( 'fkblk', plugins_url( 'assets/js/fkblk' . FAKEBLOCK_ASSETS_SUFFIX . '.js', FAKEBLOCK_PLUGIN_FILE ), array( 'jquery' ), FAKEBLOCK_VERSION, true );
+		wp_enqueue_script( 'fkblk' );
 
 	}
 
@@ -72,7 +72,7 @@ class FKBLK_Assets {
 		wp_style_add_data( 'fkblk', 'rtl', 'replace' );
 		wp_style_add_data( 'fkblk', 'suffix', FAKEBLOCK_ASSETS_SUFFIX );
 
-		// wp_register_script( 'fkblk-admin', plugins_url( 'assets/js/fkblk-admin' . $this->minify . '.js', FAKEBLOCK_PLUGIN_FILE ), array( 'jquery' ), FAKEBLOCK_VERSION, true );
+		// wp_register_script( 'fkblk-admin', plugins_url( 'assets/js/fkblk-admin' . FAKEBLOCK_ASSETS_SUFFIX . '.js', FAKEBLOCK_PLUGIN_FILE ), array( 'jquery' ), FAKEBLOCK_VERSION, true );
 		// wp_enqueue_script( 'fkblk-admin' );
 
 	}

@@ -29,7 +29,4 @@ With less than 10 active installs, Fakeblock is the OC WordPress community's pri
 = v1.0.0 - 2019-03-21 =
 -----------------------
 
-**This is being submitted to the repo before it's really finished in order to meet deadlines for WordCamp Orange County's 2019 Plugin-A-Palooza Contest Guidelines (https://2019.oc.wordcamp.org/plugin-a-palooza-2019/)**
-
-+ Initial Public release.
-+ Only kind of works but won't break your site.
++ Initial Public Release

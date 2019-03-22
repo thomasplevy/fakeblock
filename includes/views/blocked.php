@@ -15,7 +15,7 @@
 
 	<?php wp_nonce_field( 'fkblk-unblk', 'fkblk_nonce' ); ?>
 
-	<button type="submit"><?php _e( 'Unblock Me', 'fakeblock' ); ?></button>
+	<button type="submit" id="fkblk-unblock-start"><?php _e( 'Unblock Me', 'fakeblock' ); ?></button>
 
 </form>
 

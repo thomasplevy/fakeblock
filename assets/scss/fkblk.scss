@@ -8,4 +8,14 @@
 
 body.fkblkd {
 	@include wood();
+
+	text-align: center;
+
+	h1 {
+		color: #fff;
+		font-family: sans-serif;
+		margin-bottom: 10px;
+		margin-top: 50px;
+	}
+
 }
