@@ -85,7 +85,6 @@ final class Fakeblock {
 			require_once FAKEBLOCK_PLUGIN_DIR . 'includes/admin/class-fkblk-options.php';
 		}
 
-
 	}
 
 	/**
@@ -107,8 +106,8 @@ final class Fakeblock {
 	 * The first loaded file takes priority.
 	 *
 	 * Files can be found in the following order:
-	 * 		WP_LANG_DIR/fakeblock/fakeblock-LOCALE.mo
-	 * 		WP_LANG_DIR/plugins/fakeblock-LOCALE.mo
+	 *      WP_LANG_DIR/fakeblock/fakeblock-LOCALE.mo
+	 *      WP_LANG_DIR/plugins/fakeblock-LOCALE.mo
 	 *
 	 * @return   void
 	 * @since    1.0.0

@@ -20,9 +20,9 @@ class FKBLK_Options {
 	 */
 	private $settings = array(
 		'privacy_mode' => 'bool',
-		'bpm' => 'int',
-		'bars' => 'int',
-		'anti_piracy' => 'bool',
+		'bpm'          => 'int',
+		'bars'         => 'int',
+		'anti_piracy'  => 'bool',
 	);
 
 	/**
@@ -72,7 +72,7 @@ class FKBLK_Options {
 	 * @since [version]
 	 * @version [version]
 	 *
-	 * @param mixed $val Unsanitized value.
+	 * @param mixed  $val Unsanitized value.
 	 * @param string $type Data type.
 	 * @return mixed
 	 */
@@ -92,8 +92,6 @@ class FKBLK_Options {
 				break;
 
 		}
-
-
 
 		return $val;
 

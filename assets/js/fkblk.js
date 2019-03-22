@@ -7,8 +7,6 @@
 
 	var Fakeblock = function( settings ) {
 
-		console.log( settings );
-
 		var self = this,
 			tolerance = 400,
 			passedBeats = 0,
@@ -183,14 +181,6 @@
 		getTotalBeats = function( bars ) {
 			return 4 * bars;
 		}
-
-
-
-		// this.getExpectedDuration = function( bars, bpm ) {
-
-		// 	return this.getSecondsPerBar( bpm ) * bars;
-
-		// };
 
 	};
 

@@ -15,7 +15,7 @@ defined( 'ABSPATH' ) || exit;
  * @version [version]
  *
  * @param string $name Option name (unprefixed).
- * @param mixed $default Default value.
+ * @param mixed  $default Default value.
  * @return mixed
  */
 function fkblk_get( $name, $default = 'no' ) {
@@ -29,7 +29,7 @@ function fkblk_get( $name, $default = 'no' ) {
  * @version [version]
  *
  * @param string $name Option name (unprefixed).
- * @param mixed $val Option value.
+ * @param mixed  $val Option value.
  * @return bool True on success, false if option is unchanged or failed.
  */
 function fkblk_set( $name, $val ) {
@@ -39,8 +39,8 @@ function fkblk_set( $name, $val ) {
 function fkblk_set_unblock() {
 
 	$expires = current_time( 'timestamp' ) + apply_filters( 'fkblk_unblock_time', DAY_IN_SECONDS );
-	$key = apply_filters( 'fkblk_unblock_key', uniqid( wp_generate_password( 8, false ) ) );
-	$hash = fkblk_make_code( $key, $expires );
+	$key     = apply_filters( 'fkblk_unblock_key', uniqid( wp_generate_password( 8, false ) ) );
+	$hash    = fkblk_make_code( $key, $expires );
 	fkblk_set( $hash, array( $key, $expires ) );
 	return $hash;
 

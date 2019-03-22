@@ -14,7 +14,7 @@ With less than 10 active installs, Fakeblock is the OC WordPress community's pri
 
 == Description ==
 
-Fakeblock allows you to prevent public access to your website and ensure users can't pirate your websites content.
+Fakeblock allows you to ensure only visitors with a near-robotic internal clock can access the content of your website.
 
 
 == Installation ==

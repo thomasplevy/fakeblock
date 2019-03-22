@@ -1,5 +1,5 @@
 <?php
-$bpm = fkblk_get( 'bpm', 120 );
+$bpm  = fkblk_get( 'bpm', 120 );
 $bars = fkblk_get( 'bars', 2 );
 ?><!doctype html>
 <html <?php language_attributes(); ?>>
@@ -24,8 +24,8 @@ $bars = fkblk_get( 'bars', 2 );
 
 			<?php
 				$i = 1;
-				while ( $i <= $bars ) :
-			?>
+			while ( $i <= $bars ) :
+				?>
 			<div class="bar">
 				<div class="beat">1 <div class="bg"></div>
 				</div>
@@ -36,7 +36,7 @@ $bars = fkblk_get( 'bars', 2 );
 				<div class="beat">4 <div class="bg"></div>
 				</div>
 			</div>
-			<?php
+				<?php
 				$i++;
 				endwhile;
 			?>
