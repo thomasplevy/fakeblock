@@ -7,11 +7,11 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gocodebox/fakeblock.git"
+    "url": "https://github.com/thomasplevy/fakeblock.git"
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/gocodebox/fakeblock/issues"
+    "url": "https://github.com/thomasplevy/fakeblock/issues"
   },
   "devDependencies": {
     "gulp": "^4.0.0",
