@@ -14,19 +14,20 @@ With less than 10 active installs, Fakeblock is the OC WordPress community's pri
 
 == Description ==
 
-With less than 10 active installs, Fakeblock is the OC WordPress community's privacy software plugin that's also anti-piracy.
+Fakeblock allows you to prevent public access to your website and ensure users can't pirate your websites content.
 
 
 == Installation ==
 
 1. Install the plugin.
 2. Activate it.
+3. Enable privacy and anti-piracy modes under the Fakeblock menu item.
 
 
 == Changelog ==
 
 
-= v1.0.0 - 2019-03-21 =
+= v1.0.0 - 2019-03-22 =
 -----------------------
 
 + Initial Public Release

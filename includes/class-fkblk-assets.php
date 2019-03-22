@@ -50,6 +50,12 @@ class FKBLK_Assets {
 		wp_register_script( 'fkblk', plugins_url( 'assets/js/fkblk' . FAKEBLOCK_ASSETS_SUFFIX . '.js', FAKEBLOCK_PLUGIN_FILE ), array( 'jquery' ), FAKEBLOCK_VERSION, true );
 		wp_enqueue_script( 'fkblk' );
 
+		wp_localize_script( 'fkblk', 'fkblk', array(
+			'bpm' => fkblk_get( 'bpm', 120 ),
+			'bars' => fkblk_get( 'bars', 2 ),
+			'hit' => FAKEBLOCK_PLUGIN_URL . 'assets/media/fakeblock.wav',
+		) );
+
 	}
 
 	/**

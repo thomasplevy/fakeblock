@@ -19,8 +19,10 @@ class FKBLK_Options {
 	 * @var array
 	 */
 	private $settings = array(
-		'fkblk_privacy_mode',
-		'fkblk_anti_piracy',
+		'privacy_mode' => 'bool',
+		'bpm' => 'int',
+		'bars' => 'int',
+		'anti_piracy' => 'bool',
 	);
 
 	/**
@@ -65,6 +67,39 @@ class FKBLK_Options {
 	}
 
 	/**
+	 * Sanitize an option value before saving.
+	 *
+	 * @since [version]
+	 * @version [version]
+	 *
+	 * @param mixed $val Unsanitized value.
+	 * @param string $type Data type.
+	 * @return mixed
+	 */
+	private function sanitize_option( $val, $type ) {
+
+		switch ( $type ) {
+
+			case 'bool':
+				// unset means it's unchecked, not yes means you're trying to fake me man stop it.
+				if ( is_null( $val ) || 'yes' !== $val ) {
+					$val = 'no';
+				}
+				break;
+
+			case 'int':
+				$val = absint( $val );
+				break;
+
+		}
+
+
+
+		return $val;
+
+	}
+
+	/**
 	 * Save options.
 	 *
 	 * @since [version]
@@ -86,20 +121,16 @@ class FKBLK_Options {
 			return;
 		}
 
-		foreach ( $this->settings as $setting ) {
+		foreach ( $this->settings as $setting => $type ) {
 
-			$val = filter_input( INPUT_POST, $setting, FILTER_SANITIZE_STRING );
-
-			// unset means it's unchecked, not yes means you're trying to fake me man stop it.
-			if ( is_null( $val ) || 'yes' !== $val ) {
-				$val = 'no';
-			}
-
-			update_option( $setting, $val );
+			$val = filter_input( INPUT_POST, 'fkblk_' . $setting, FILTER_SANITIZE_STRING );
+			fkblk_set( $setting, $this->sanitize_option( $val, $type ) );
 
 		}
 
 	}
+
+
 
 }
 

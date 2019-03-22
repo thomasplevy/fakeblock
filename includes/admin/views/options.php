@@ -19,6 +19,7 @@ defined( 'ABSPATH' ) || exit;
 
 		<table class="form-table">
 			<tbody>
+
 				<tr>
 					<th scope="row"><?php _e( 'Privacy Mode', 'fakeblock' ); ?></th>
 					<td>
@@ -32,6 +33,22 @@ defined( 'ABSPATH' ) || exit;
 							</label>
 						</fieldset>
 						<p class="description"><?php _e( 'Enable the unpatented Fakeblock privacy algorithms to prevent internet attention, traffic, and other common online annoyances.', 'fakeblock' ); ?></p>
+					</td>
+				</tr>
+
+				<tr>
+					<th scope="row"><label for="fkblk_bpm"><?php _e( 'Unlock BPM', 'fakeblock' ); ?></label></th>
+					<td>
+						<input name="fkblk_bpm" type="number" id="fkblk_bpm" value="<?php echo fkblk_get( 'bpm', 120 ); ?>" class="regular-text" step="1" min="1">
+						<p class="description"><?php _e( 'The beats per minute required to bypass a Fakeblock.', 'fakeblock' ); ?></p>
+					</td>
+				</tr>
+
+				<tr>
+					<th scope="row"><label for="fkblk_bars"><?php _e( 'Unlock Bars', 'fakeblock' ); ?></label></th>
+					<td>
+						<input name="fkblk_bars" type="number" id="fkblk_bars" value="<?php echo fkblk_get( 'bars', 2 ); ?>" class="regular-text" step="1" min="1">
+						<p class="description"><?php _e( 'The number of bars to be played when bypassing a Fakeblock.', 'fakeblock' ); ?></p>
 					</td>
 				</tr>
 
@@ -50,6 +67,7 @@ defined( 'ABSPATH' ) || exit;
 						<p class="description"><?php _e( '"Fakeblock is also anti-piracy? That\'s awesome!" ~ A fake user', 'fakeblock' ); ?></p>
 					</td>
 				</tr>
+
 			</tbody>
 		</table>
 
