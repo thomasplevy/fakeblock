@@ -14,7 +14,9 @@ With less than 10 active installs, Fakeblock is the OC WordPress community's pri
 
 == Description ==
 
-Fakeblock allows you to ensure only visitors with a near-robotic internal clock can access the content of your website.
+Fakeblock is a unique maintenance-mode plugin.
+
+When Fakeblock's "Privacy Mode" is enabled, visitors to your site must pass a "rhythm" test in order to gain entry to your website.
 
 
 == Installation ==
