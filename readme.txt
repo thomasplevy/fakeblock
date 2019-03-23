@@ -18,6 +18,8 @@ Fakeblock is a unique maintenance-mode plugin.
 
 When Fakeblock's "Privacy Mode" is enabled, visitors to your site must pass a "rhythm" test in order to gain entry to your website.
 
+Want to see Fakeblock in action? See a live demo at [fakeblock.us](http://fakeblock.us/)!
+
 
 == Installation ==
 
